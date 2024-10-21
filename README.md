@@ -15,34 +15,16 @@ A simple bidding system built with Node.js, Express, MongoDB, and React.js.
 - **Backend:** Node.js, Express, MongoDB
 - **Frontend:** React.js
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/your-repository.git
-   cd your-repository
-
-## Set up the backend:
-Navigate to the backend directory:cd backend
-Install the required packages:npm install
-Create a .env file in the backend directory and add the following:
-MONGO_URI=<your_mongo_connection_string>
-JWT_SECRET=<your_jwt_secret>
-PORT=5000
-
-
-## Set up the frontend:
-Navigate to the frontend directory:
-cd ../frontend
-Install the required packages:
+## Running the Project
+1. Install Dependencies
+In both the frontend and backend directories, run:
 npm install
 
-
-## Start the backend and frontend:
-Start the backend:
-cd ../backend
+2. Start the Backend Server
+In the backend directory, run:
 node server.js
 
-Start the frontend:
-cd ../frontend
+3 Start the Frontend Development Server
+In the frontend directory, run:
 npm start
+
